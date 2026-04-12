@@ -1,0 +1,10 @@
+Package: enigma2-plugin-extensions-fritz-mon
+Version: 1.0.0
+Section: base
+Priority: optional
+Architecture: all
+Maintainer: madoe21 <https://github.com/madoe21>
+Description: FritzMon – Fritz!Box Network Monitor for Enigma2
+ Shows all devices on the Fritz!Box network with IP, MAC address,
+ connection type and online status. Uses the TR-064 SOAP API.
+Depends: enigma2

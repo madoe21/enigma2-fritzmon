@@ -1,0 +1,139 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: fritz_mon 1.0.0\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Active only"
+msgstr "Nur aktive"
+
+msgid "Address Source"
+msgstr "Adressquelle"
+
+msgid "All devices"
+msgstr "Alle Geräte"
+
+msgid "Cancel"
+msgstr "Abbrechen"
+
+msgid "Close"
+msgstr "Schließen"
+
+msgid "Connection"
+msgstr "Verbindung"
+
+msgid "Connection test failed"
+msgstr "Verbindungstest fehlgeschlagen"
+
+msgid "Connection test successful"
+msgstr "Verbindungstest erfolgreich"
+
+msgid "Data source"
+msgstr "Datenquelle"
+
+msgid "Devices"
+msgstr "Geräte"
+
+msgid "Error"
+msgstr "Fehler"
+
+msgid "Ethernet"
+msgstr "Ethernet"
+
+msgid "Filter"
+msgstr "Filter"
+
+msgid "Fritz!Box Host/IP"
+msgstr "Fritz!Box Host/IP"
+
+msgid "Fritz!Box Settings"
+msgstr "Fritz!Box Einstellungen"
+
+msgid "FritzMon"
+msgstr "FritzMon"
+
+msgid "FritzMon - Network Overview"
+msgstr "FritzMon - Netzwerkübersicht"
+
+msgid "FritzMon Information"
+msgstr "FritzMon Informationen"
+
+msgid "Hostname"
+msgstr "Hostname"
+
+msgid "IP Address"
+msgstr "IP-Adresse"
+
+msgid "Information"
+msgstr "Informationen"
+
+msgid "Interface Type"
+msgstr "Schnittstellentyp"
+
+msgid "Loading..."
+msgstr "Lade..."
+
+msgid "MAC Address"
+msgstr "MAC-Adresse"
+
+msgid "Main menu"
+msgstr "Hauptmenü"
+
+msgid "No devices found"
+msgstr "Keine Geräte gefunden"
+
+msgid "Password"
+msgstr "Passwort"
+
+msgid "Please configure the Fritz!Box connection first"
+msgstr "Bitte zuerst die Fritz!Box-Verbindung konfigurieren"
+
+msgid "Port"
+msgstr "Port"
+
+msgid "Refresh"
+msgstr "Aktualisieren"
+
+msgid "Save"
+msgstr "Speichern"
+
+msgid "Settings"
+msgstr "Einstellungen"
+
+msgid "Settings saved"
+msgstr "Einstellungen gespeichert"
+
+msgid "Show inactive devices"
+msgstr "Inaktive Geräte anzeigen"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Test connection"
+msgstr "Verbindung testen"
+
+msgid "Updated"
+msgstr "Aktualisiert"
+
+msgid "Username"
+msgstr "Benutzername"
+
+msgid "Using cached data"
+msgstr "Verwende zwischengespeicherte Daten"
+
+msgid "WiFi"
+msgstr "WLAN"
+
+msgid "active"
+msgstr "aktiv"
+
+msgid "inactive"
+msgstr "inaktiv"
+
+msgid "n/a"
+msgstr "n/v"
+
+msgid "unknown"
+msgstr "unbekannt"

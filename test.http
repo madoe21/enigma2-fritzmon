@@ -1,0 +1,58 @@
+@fritzHost = {{$dotenv FRITZ_HOST}}
+@fritzPort = {{$dotenv FRITZ_PORT}}
+@fritzUser = {{$dotenv FRITZ_USER}}
+@fritzPassword = {{$dotenv FRITZ_PASSWORD}}
+
+### 1) TR-064: Get host list – returns all known network hosts (active + inactive)
+# Uses HTTP Digest authentication (handled automatically by Fritz!Box)
+POST http://{{fritzHost}}:{{fritzPort}}/upnp/control/hosts
+Content-Type: text/xml; charset="utf-8"
+SOAPAction: "urn:dslforum-org:service:Hosts:1#GetHostNumberOfEntries"
+Authorization: Digest username="{{fritzUser}}", realm="", nonce="", uri="", response=""
+
+<?xml version="1.0" encoding="utf-8"?>
+<s:Envelope s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <u:GetHostNumberOfEntries xmlns:u="urn:dslforum-org:service:Hosts:1"/>
+  </s:Body>
+</s:Envelope>
+
+### 2) TR-064: Get generic host entry by index (NewIndex = 0..N-1)
+POST http://{{fritzHost}}:{{fritzPort}}/upnp/control/hosts
+Content-Type: text/xml; charset="utf-8"
+SOAPAction: "urn:dslforum-org:service:Hosts:1#GetGenericHostEntry"
+
+<?xml version="1.0" encoding="utf-8"?>
+<s:Envelope s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <u:GetGenericHostEntry xmlns:u="urn:dslforum-org:service:Hosts:1">
+      <NewIndex>0</NewIndex>
+    </u:GetGenericHostEntry>
+  </s:Body>
+</s:Envelope>
+
+### 3) TR-064: Get specific host by MAC address
+POST http://{{fritzHost}}:{{fritzPort}}/upnp/control/hosts
+Content-Type: text/xml; charset="utf-8"
+SOAPAction: "urn:dslforum-org:service:Hosts:1#GetSpecificHostEntry"
+
+<?xml version="1.0" encoding="utf-8"?>
+<s:Envelope s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <u:GetSpecificHostEntry xmlns:u="urn:dslforum-org:service:Hosts:1">
+      <NewMACAddress>AA:BB:CC:DD:EE:FF</NewMACAddress>
+    </u:GetSpecificHostEntry>
+  </s:Body>
+</s:Envelope>
+
+### 4) TR-064: Get device info (model, firmware version)
+POST http://{{fritzHost}}:{{fritzPort}}/upnp/control/deviceinfo
+Content-Type: text/xml; charset="utf-8"
+SOAPAction: "urn:dslforum-org:service:DeviceInfo:1#GetInfo"
+
+<?xml version="1.0" encoding="utf-8"?>
+<s:Envelope s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <u:GetInfo xmlns:u="urn:dslforum-org:service:DeviceInfo:1"/>
+  </s:Body>
+</s:Envelope>

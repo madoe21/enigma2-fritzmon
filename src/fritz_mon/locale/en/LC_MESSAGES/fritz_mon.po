@@ -1,0 +1,139 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: fritz_mon 1.0.0\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Active only"
+msgstr "Active only"
+
+msgid "Address Source"
+msgstr "Address Source"
+
+msgid "All devices"
+msgstr "All devices"
+
+msgid "Cancel"
+msgstr "Cancel"
+
+msgid "Close"
+msgstr "Close"
+
+msgid "Connection"
+msgstr "Connection"
+
+msgid "Connection test failed"
+msgstr "Connection test failed"
+
+msgid "Connection test successful"
+msgstr "Connection test successful"
+
+msgid "Data source"
+msgstr "Data source"
+
+msgid "Devices"
+msgstr "Devices"
+
+msgid "Error"
+msgstr "Error"
+
+msgid "Ethernet"
+msgstr "Ethernet"
+
+msgid "Filter"
+msgstr "Filter"
+
+msgid "Fritz!Box Host/IP"
+msgstr "Fritz!Box Host/IP"
+
+msgid "Fritz!Box Settings"
+msgstr "Fritz!Box Settings"
+
+msgid "FritzMon"
+msgstr "FritzMon"
+
+msgid "FritzMon - Network Overview"
+msgstr "FritzMon - Network Overview"
+
+msgid "FritzMon Information"
+msgstr "FritzMon Information"
+
+msgid "Hostname"
+msgstr "Hostname"
+
+msgid "IP Address"
+msgstr "IP Address"
+
+msgid "Information"
+msgstr "Information"
+
+msgid "Interface Type"
+msgstr "Interface Type"
+
+msgid "Loading..."
+msgstr "Loading..."
+
+msgid "MAC Address"
+msgstr "MAC Address"
+
+msgid "Main menu"
+msgstr "Main menu"
+
+msgid "No devices found"
+msgstr "No devices found"
+
+msgid "Password"
+msgstr "Password"
+
+msgid "Please configure the Fritz!Box connection first"
+msgstr "Please configure the Fritz!Box connection first"
+
+msgid "Port"
+msgstr "Port"
+
+msgid "Refresh"
+msgstr "Refresh"
+
+msgid "Save"
+msgstr "Save"
+
+msgid "Settings"
+msgstr "Settings"
+
+msgid "Settings saved"
+msgstr "Settings saved"
+
+msgid "Show inactive devices"
+msgstr "Show inactive devices"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Test connection"
+msgstr "Test connection"
+
+msgid "Updated"
+msgstr "Updated"
+
+msgid "Username"
+msgstr "Username"
+
+msgid "Using cached data"
+msgstr "Using cached data"
+
+msgid "WiFi"
+msgstr "WiFi"
+
+msgid "active"
+msgstr "active"
+
+msgid "inactive"
+msgstr "inactive"
+
+msgid "n/a"
+msgstr "n/a"
+
+msgid "unknown"
+msgstr "unknown"
