@@ -637,7 +637,7 @@ class FritzMonSettingsScreen(Screen, ConfigListScreen):
         username = (config.plugins.fritzmon.username.value or "").strip()
         password = (config.plugins.fritzmon.password.value or "").strip()
 
-        from .api import FritzMonApiClient
+        from .core.api import FritzMonApiClient
         client = FritzMonApiClient(host=host, port=port, username=username, password=password)
         ok, error = client.ping()
         if ok:

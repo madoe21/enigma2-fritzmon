@@ -27,9 +27,9 @@ from Plugins.Plugin import PluginDescriptor
 from Tools.Directories import SCOPE_PLUGINS, resolveFilename
 
 from . import _
-from .api import FritzMonApiClient
+from .core.api import FritzMonApiClient
 from .screens import FritzMonMainScreen, FritzMonSettingsScreen
-from .store import FritzMonStore
+from .core.store import FritzMonStore
 
 SETTINGS_FILE = "/etc/enigma2/settings"
 USE_ASPECT_ICON_VARIANTS = True
