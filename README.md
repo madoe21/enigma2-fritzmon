@@ -2,6 +2,8 @@
 
 [![Built with aiflow](https://img.shields.io/badge/built%20with-aiflow-6b46c1)](https://github.com/cyber93de/aiflow)
 
+📖 [Project page & install instructions](https://madoe21.github.io/enigma2-fritzmon/)
+
 Fritz!Box Network Monitor plugin for Enigma2. Shows all devices on the
 Fritz!Box network with IP address, MAC address, connection type (LAN/WLAN)
 and online/offline status. Uses the TR-064 SOAP API.
